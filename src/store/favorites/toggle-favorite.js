@@ -19,7 +19,7 @@ export function useToggleFavorite() {
     },
     onError: (error) => {
       if (error.response?.status === 401) {
-        alert('Пожалуйста, войдите в систему или зарегистрируйтесь');
+        alert('пожалуйста, войдите в систему или зарегистрируйтесь');
       } else {
         console.error(error);
       }
